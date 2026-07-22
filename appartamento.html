@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="
+      default-src 'self';
+      img-src 'self' data:;
+      style-src 'self';
+      script-src 'self';
+      font-src 'self';
+      object-src 'none';
+      base-uri 'self';
+      form-action 'none';
+      frame-ancestors 'none';
+      upgrade-insecure-requests;
+    "
+  />
+
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta name="theme-color" content="#102a5c" />
+  <link rel="icon" type="image/png" href="assets/images/branding/favicon.png" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <title>L’Appartamento | MUN Apartment</title>
+  <meta
+    name="description"
+    content="Scopri gli spazi e i comfort di MUN Apartment a Fuipiano Valle Imagna: cucina attrezzata, camera matrimoniale, zona giorno, bagno e Wi-Fi."
+  />
+</head>
+
+<body data-page="apartment">
+
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navigazione principale">
+      <a class="brand" href="index.html" aria-label="MUN Apartment, home">
+        <img
+          src="assets/images/branding/munapartment-logo.png"
+          alt="MUN Apartment"
+          class="brand-logo"
+        />
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Apri il menu"
+        aria-expanded="false"
+        aria-controls="main-menu"
+      >
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="main-menu">
+        <li><a href="index.html" data-i18n="navHome">Home</a></li>
+        <li><a href="appartamento.html" data-i18n="navApartment">Appartamento</a></li>
+        <li><a href="territorio.html" data-i18n="navTerritory">Territorio</a></li>
+        <li><a href="regole.html" data-i18n="navRules">Regole</a></li>
+        <li><a href="contatti.html" data-i18n="navContact">Contatti</a></li>
+        <li>
+          <a class="nav-book" href="prenota.html" data-i18n="navBook">
+            Prenota
+          </a>
+        </li>
+        <li class="language-switch" aria-label="Selezione lingua">
+          <button
+            type="button"
+            class="language-flag active"
+            data-language="it"
+            aria-label="Italiano"
+            title="Italiano"
+          >
+            🇮🇹
+          </button>
+          <button
+            type="button"
+            class="language-flag"
+            data-language="en"
+            aria-label="English"
+            title="English"
+          >
+            🇬🇧
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <section class="page-hero apartment-hero">
+      <div class="container narrow reveal">
+        <p class="eyebrow" data-i18n="apartmentEyebrow">L’appartamento</p>
+        <h1 data-i18n="apartmentTitle">Tutto ciò che serve per sentirsi a casa.</h1>
+        <p data-i18n="apartmentLead">
+          Ambienti semplici, funzionali e accoglienti per vivere la montagna
+          con libertà, comfort e tranquillità.
+        </p>
+        <a class="button button-primary" href="prenota.html" data-i18n="checkAvailability">
+          Verifica disponibilità
+        </a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="spacesEyebrow">Gli spazi</p>
+          <h2 data-i18n="spacesTitle">Un appartamento pratico e completo.</h2>
+        </div>
+
+        <div class="section-copy reveal">
+          <p class="lead" data-i18n="spacesLead">
+            Gli ambienti sono organizzati per offrire autonomia durante
+            soggiorni di piacere, relax o lavoro.
+          </p>
+          <p data-i18n="spacesText">
+            La casa comprende una cucina attrezzata con zona pranzo,
+            una zona giorno, una camera matrimoniale e un bagno con doccia.
+            Sono inoltre disponibili Wi-Fi, elettrodomestici e lavatrice.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <div class="container">
+        <div class="gallery-grid">
+          <figure class="gallery-item gallery-wide reveal">
+            <img src="assets/images/apartment/living-room.webp" alt="Zona giorno" />
+            <figcaption data-i18n="galleryLiving">Zona giorno</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal">
+            <img src="assets/images/apartment/kitchen.webp" alt="Cucina attrezzata" />
+            <figcaption data-i18n="galleryKitchen">Cucina attrezzata</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal">
+            <img src="assets/images/apartment/bedroom-bed.webp" alt="Camera matrimoniale" />
+            <figcaption data-i18n="galleryBedroom">Camera matrimoniale</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal">
+            <img src="assets/images/apartment/bedroom-window.webp" alt="Vista dalla camera" />
+            <figcaption data-i18n="galleryView">Vista dalla camera</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal">
+            <img src="assets/images/apartment/bedroom-dresser.webp" alt="Arredi della camera" />
+            <figcaption data-i18n="galleryDetails">Dettagli della camera</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal">
+            <img src="assets/images/apartment/bathroom-sink.webp" alt="Bagno" />
+            <figcaption data-i18n="galleryBathroom">Bagno</figcaption>
+          </figure>
+
+          <figure class="gallery-item reveal">
+            <img src="assets/images/apartment/bathroom-shower.webp" alt="Doccia" />
+            <figcaption data-i18n="galleryShower">Doccia</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="comfortEyebrow">Comfort</p>
+          <h2 data-i18n="comfortTitle">I servizi essenziali per il soggiorno.</h2>
+        </div>
+
+        <div class="amenities-grid">
+          <div class="amenity reveal"><span>Wi-Fi</span><p data-i18n="amenityWifi">Connessione internet</p></div>
+          <div class="amenity reveal"><span data-i18n="amenityKitchenTitle">Cucina</span><p data-i18n="amenityKitchen">Attrezzata per l’uso quotidiano</p></div>
+          <div class="amenity reveal"><span data-i18n="amenityWasherTitle">Lavatrice</span><p data-i18n="amenityWasher">Disponibile nell’appartamento</p></div>
+          <div class="amenity reveal"><span data-i18n="amenityCoffeeTitle">Caffè</span><p data-i18n="amenityCoffee">Macchina da caffè</p></div>
+          <div class="amenity reveal"><span data-i18n="amenityShowerTitle">Doccia</span><p data-i18n="amenityShower">Bagno completo</p></div>
+          <div class="amenity reveal"><span data-i18n="amenityViewTitle">Vista</span><p data-i18n="amenityView">Panorama della Valle Imagna</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img
+          src="assets/images/branding/munapartment-logo.png"
+          alt="MUN Apartment"
+        />
+        <p data-i18n="footerTagline">Stop allo stress e via al relax.</p>
+      </div>
+
+      <div>
+        <h2 data-i18n="footerContact">Contatti</h2>
+        <a href="mailto:munapartment@gmail.com">munapartment@gmail.com</a>
+        <a href="tel:+393516896022">+39 351 689 6022</a>
+        <p>Via Alessandro Volta 10, Fuipiano Valle Imagna (BG)</p>
+      </div>
+
+      <div>
+        <h2 data-i18n="footerFollow">Seguici</h2>
+        <div class="social-links">
+          <a
+            href="https://www.instagram.com/munapartment?igshid=ZDdkNTZiNTM%3D"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram
+          </a>
+          <a
+            href="https://www.tiktok.com/@mun.apartment?_t=8hyta0qmu8G&_r=1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            TikTok
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100090665290518"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Facebook
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-legal">
+      <p>CIR: 016106-CNI-00001</p>
+      <p>CIN: IT016106C2FORESJ25</p>
+      <p>© <span data-current-year></span> MUN Apartment</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js" defer></script>
+
+</body>
+</html>

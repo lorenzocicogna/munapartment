@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="
+      default-src 'self';
+      img-src 'self' data:;
+      style-src 'self';
+      script-src 'self';
+      font-src 'self';
+      object-src 'none';
+      base-uri 'self';
+      form-action 'none';
+      frame-ancestors 'none';
+      upgrade-insecure-requests;
+    "
+  />
+
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta name="theme-color" content="#102a5c" />
+  <link rel="icon" type="image/png" href="assets/images/branding/favicon.png" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <title>Pagina non trovata | MUN Apartment</title>
+  <meta name="description" content="La pagina richiesta non è disponibile." />
+</head>
+
+<body data-page="404">
+
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navigazione principale">
+      <a class="brand" href="index.html" aria-label="MUN Apartment, home">
+        <img
+          src="assets/images/branding/munapartment-logo.png"
+          alt="MUN Apartment"
+          class="brand-logo"
+        />
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Apri il menu"
+        aria-expanded="false"
+        aria-controls="main-menu"
+      >
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="main-menu">
+        <li><a href="index.html" data-i18n="navHome">Home</a></li>
+        <li><a href="appartamento.html" data-i18n="navApartment">Appartamento</a></li>
+        <li><a href="territorio.html" data-i18n="navTerritory">Territorio</a></li>
+        <li><a href="regole.html" data-i18n="navRules">Regole</a></li>
+        <li><a href="contatti.html" data-i18n="navContact">Contatti</a></li>
+        <li>
+          <a class="nav-book" href="prenota.html" data-i18n="navBook">
+            Prenota
+          </a>
+        </li>
+        <li class="language-switch" aria-label="Selezione lingua">
+          <button
+            type="button"
+            class="language-flag active"
+            data-language="it"
+            aria-label="Italiano"
+            title="Italiano"
+          >
+            🇮🇹
+          </button>
+          <button
+            type="button"
+            class="language-flag"
+            data-language="en"
+            aria-label="English"
+            title="English"
+          >
+            🇬🇧
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <section class="page-hero not-found-hero">
+      <div class="container narrow reveal center">
+        <p class="eyebrow">404</p>
+        <h1 data-i18n="notFoundTitle">Pagina non trovata.</h1>
+        <p data-i18n="notFoundText">
+          Il collegamento potrebbe essere cambiato oppure l’indirizzo non è corretto.
+        </p>
+        <a class="button button-primary" href="index.html" data-i18n="backHome">
+          Torna alla home
+        </a>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img
+          src="assets/images/branding/munapartment-logo.png"
+          alt="MUN Apartment"
+        />
+        <p data-i18n="footerTagline">Stop allo stress e via al relax.</p>
+      </div>
+
+      <div>
+        <h2 data-i18n="footerContact">Contatti</h2>
+        <a href="mailto:munapartment@gmail.com">munapartment@gmail.com</a>
+        <a href="tel:+393516896022">+39 351 689 6022</a>
+        <p>Via Alessandro Volta 10, Fuipiano Valle Imagna (BG)</p>
+      </div>
+
+      <div>
+        <h2 data-i18n="footerFollow">Seguici</h2>
+        <div class="social-links">
+          <a
+            href="https://www.instagram.com/munapartment?igshid=ZDdkNTZiNTM%3D"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram
+          </a>
+          <a
+            href="https://www.tiktok.com/@mun.apartment?_t=8hyta0qmu8G&_r=1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            TikTok
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100090665290518"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Facebook
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-legal">
+      <p>CIR: 016106-CNI-00001</p>
+      <p>CIN: IT016106C2FORESJ25</p>
+      <p>© <span data-current-year></span> MUN Apartment</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js" defer></script>
+
+</body>
+</html>

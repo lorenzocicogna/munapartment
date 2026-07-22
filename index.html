@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="
+      default-src 'self';
+      img-src 'self' data:;
+      style-src 'self';
+      script-src 'self';
+      font-src 'self';
+      object-src 'none';
+      base-uri 'self';
+      form-action 'none';
+      frame-ancestors 'none';
+      upgrade-insecure-requests;
+    "
+  />
+
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta name="theme-color" content="#102a5c" />
+  <link rel="icon" type="image/png" href="assets/images/branding/favicon.png" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <title>MUN Apartment | Relax in Valle Imagna</title>
+  <meta
+    name="description"
+    content="MUN Apartment a Fuipiano Valle Imagna: appartamento accogliente con vista sulle montagne, Wi-Fi e prenotazione tramite Airbnb, Booking e Vrbo."
+  />
+</head>
+
+<body data-page="home">
+
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navigazione principale">
+      <a class="brand" href="index.html" aria-label="MUN Apartment, home">
+        <img
+          src="assets/images/branding/munapartment-logo.png"
+          alt="MUN Apartment"
+          class="brand-logo"
+        />
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Apri il menu"
+        aria-expanded="false"
+        aria-controls="main-menu"
+      >
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-menu" id="main-menu">
+        <li><a href="index.html" data-i18n="navHome">Home</a></li>
+        <li><a href="appartamento.html" data-i18n="navApartment">Appartamento</a></li>
+        <li><a href="territorio.html" data-i18n="navTerritory">Territorio</a></li>
+        <li><a href="regole.html" data-i18n="navRules">Regole</a></li>
+        <li><a href="contatti.html" data-i18n="navContact">Contatti</a></li>
+        <li>
+          <a class="nav-book" href="prenota.html" data-i18n="navBook">
+            Prenota
+          </a>
+        </li>
+        <li class="language-switch" aria-label="Selezione lingua">
+          <button
+            type="button"
+            class="language-flag active"
+            data-language="it"
+            aria-label="Italiano"
+            title="Italiano"
+          >
+            🇮🇹
+          </button>
+          <button
+            type="button"
+            class="language-flag"
+            data-language="en"
+            aria-label="English"
+            title="English"
+          >
+            🇬🇧
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <section class="hero-home">
+      <img
+        class="hero-background"
+        src="assets/images/territory/moon-mountains.webp"
+        alt=""
+        aria-hidden="true"
+      />
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-home-content reveal">
+        <p class="eyebrow" data-i18n="homeEyebrow">
+          Fuipiano Valle Imagna · Bergamo
+        </p>
+
+        <h1 data-i18n="homeTitle">
+          Stop allo stress e via al relax.
+        </h1>
+
+        <p data-i18n="homeLead">
+          Un rifugio di montagna accogliente, immerso nella tranquillità
+          della Valle Imagna e dotato dei comfort essenziali per un soggiorno
+          piacevole e senza pensieri.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="prenota.html" data-i18n="bookNow">
+            Prenota il soggiorno
+          </a>
+          <a class="button button-light" href="appartamento.html" data-i18n="discoverApartment">
+            Scopri l’appartamento
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="quick-info" aria-label="Informazioni rapide">
+      <div class="container quick-info-grid">
+        <article class="reveal">
+          <span>01</span>
+          <h2 data-i18n="quickLocationTitle">Natura e tranquillità</h2>
+          <p data-i18n="quickLocationText">
+            Nel cuore di Fuipiano Valle Imagna, circondato dalle montagne.
+          </p>
+        </article>
+
+        <article class="reveal">
+          <span>02</span>
+          <h2 data-i18n="quickAirportTitle">35 minuti dall’aeroporto</h2>
+          <p data-i18n="quickAirportText">
+            Collegamento agevole con l’aeroporto di Orio al Serio.
+          </p>
+        </article>
+
+        <article class="reveal">
+          <span>03</span>
+          <h2 data-i18n="quickMilanTitle">Circa 60 minuti da Milano</h2>
+          <p data-i18n="quickMilanText">
+            Una pausa nella natura senza allontanarsi troppo dalla città.
+          </p>
+        </article>
+
+        <article class="reveal">
+          <span>04</span>
+          <h2 data-i18n="quickBookingTitle">Prenotazione semplice</h2>
+          <p data-i18n="quickBookingText">
+            Disponibile su Airbnb, Booking e Vrbo.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section welcome-section">
+      <div class="container welcome-grid">
+        <div class="welcome-copy reveal">
+          <p class="eyebrow" data-i18n="welcomeEyebrow">Benvenuti</p>
+          <h2 data-i18n="welcomeTitle">
+            La tranquillità della montagna incontra la comodità moderna.
+          </h2>
+          <p class="lead" data-i18n="welcomeLead">
+            MUN Apartment è pensato per chi desidera rallentare, respirare
+            e vivere un soggiorno autentico nella natura.
+          </p>
+          <p data-i18n="welcomeText">
+            L’appartamento si trova a Fuipiano Valle Imagna, in provincia
+            di Bergamo. Offre un ambiente accogliente, Wi-Fi, cucina attrezzata,
+            zona giorno, camera matrimoniale e una vista capace di accompagnare
+            ogni momento del soggiorno.
+          </p>
+          <a class="text-link" href="appartamento.html" data-i18n="viewSpaces">
+            Guarda gli spazi →
+          </a>
+        </div>
+
+        <div class="welcome-collage reveal">
+          <img
+            class="collage-main"
+            src="assets/images/apartment/living-room.webp"
+            alt="Zona giorno di MUN Apartment"
+          />
+          <img
+            class="collage-small"
+            src="assets/images/apartment/bedroom-bed.webp"
+            alt="Camera matrimoniale di MUN Apartment"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-blue">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="whyEyebrow">Perché sceglierci</p>
+          <h2 data-i18n="whyTitle">Un soggiorno semplice, autentico e rilassante.</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card reveal">
+            <span>⌂</span>
+            <h3 data-i18n="featureHomeTitle">Casa completa</h3>
+            <p data-i18n="featureHomeText">
+              Spazi indipendenti per soggiornare in libertà e comfort.
+            </p>
+          </article>
+
+          <article class="feature-card reveal">
+            <span>◌</span>
+            <h3 data-i18n="featureViewTitle">Panorama montano</h3>
+            <p data-i18n="featureViewText">
+              Paesaggi, silenzio e natura direttamente intorno a voi.
+            </p>
+          </article>
+
+          <article class="feature-card reveal">
+            <span>✓</span>
+            <h3 data-i18n="featureCareTitle">Assistenza dell’host</h3>
+            <p data-i18n="featureCareText">
+              Comunicazione chiara e supporto durante il soggiorno.
+            </p>
+          </article>
+
+          <article class="feature-card reveal">
+            <span>↗</span>
+            <h3 data-i18n="featureAccessTitle">Prenotazione flessibile</h3>
+            <p data-i18n="featureAccessText">
+              Scegliete la piattaforma che preferite per verificare disponibilità e prezzi.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section booking-preview">
+      <div class="container booking-preview-grid">
+        <div class="reveal">
+          <p class="eyebrow" data-i18n="bookingEyebrow">Prenota</p>
+          <h2 data-i18n="bookingPreviewTitle">
+            Scegli il canale più comodo per il tuo soggiorno.
+          </h2>
+          <p data-i18n="bookingPreviewText">
+            Consulta disponibilità, condizioni e prezzi aggiornati direttamente
+            sulle principali piattaforme di prenotazione.
+          </p>
+        </div>
+
+        <div class="platform-list reveal">
+          <a href="https://www.airbnb.it/rooms/829588635265908158" target="_blank" rel="noopener noreferrer">
+            <strong>Airbnb</strong><span>Apri →</span>
+          </a>
+          <a href="https://www.booking.com/hotel/it/mun-apartment-major-unforgettable-nights.it.html" target="_blank" rel="noopener noreferrer">
+            <strong>Booking.com</strong><span>Apri →</span>
+          </a>
+          <a href="https://www.vrbo.com/it-it/affitto-vacanze/p11385651" target="_blank" rel="noopener noreferrer">
+            <strong>Vrbo</strong><span>Apri →</span>
+          </a>
+          <a href="prenota.html">
+            <strong data-i18n="allBookingOptions">Tutte le opzioni</strong><span>→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img
+          src="assets/images/branding/munapartment-logo.png"
+          alt="MUN Apartment"
+        />
+        <p data-i18n="footerTagline">Stop allo stress e via al relax.</p>
+      </div>
+
+      <div>
+        <h2 data-i18n="footerContact">Contatti</h2>
+        <a href="mailto:munapartment@gmail.com">munapartment@gmail.com</a>
+        <a href="tel:+393516896022">+39 351 689 6022</a>
+        <p>Via Alessandro Volta 10, Fuipiano Valle Imagna (BG)</p>
+      </div>
+
+      <div>
+        <h2 data-i18n="footerFollow">Seguici</h2>
+        <div class="social-links">
+          <a
+            href="https://www.instagram.com/munapartment?igshid=ZDdkNTZiNTM%3D"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Instagram
+          </a>
+          <a
+            href="https://www.tiktok.com/@mun.apartment?_t=8hyta0qmu8G&_r=1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            TikTok
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100090665290518"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Facebook
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-legal">
+      <p>CIR: 016106-CNI-00001</p>
+      <p>CIN: IT016106C2FORESJ25</p>
+      <p>© <span data-current-year></span> MUN Apartment</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js" defer></script>
+
+</body>
+</html>
