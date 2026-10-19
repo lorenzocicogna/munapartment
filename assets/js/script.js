@@ -154,6 +154,33 @@ const translations = {
     socialTitle: "Segui MUN Apartment.",
     socialText: "Foto, aggiornamenti e contenuti dalla Valle Imagna.",
 
+    discoverMoreEyebrow: "Scopri MUN Apartment",
+    discoverMoreTitle: "Entra negli spazi e conosci la storia del progetto.",
+    discoverMoreLead: "Un tour guidato tra gli ambienti reali dell’appartamento e l’intervista all’host per scoprire MUN Apartment da due prospettive diverse.",
+    tourCardTitle: "Tour virtuale guidato",
+    tourCardText: "Esplora zona giorno, cucina, camera e bagno attraverso le fotografie reali dell’appartamento.",
+    openTour: "Inizia il tour",
+    interviewCardTitle: "Intervista all’host",
+    interviewCardText: "Guarda l’intervista a Lorenzo Cicogna dedicata a MUN Apartment e al progetto di ospitalità.",
+    watchInterview: "Guarda l’intervista",
+    guidedTour: "Tour virtuale",
+    tourEyebrow: "Tour virtuale guidato",
+    tourTitle: "Visita MUN Apartment, ambiente dopo ambiente.",
+    tourLead: "Un percorso interattivo costruito esclusivamente con fotografie reali dell’appartamento. Non è una ricostruzione 3D o un tour 360°.",
+    tourInstruction: "Scegli un ambiente oppure usa le frecce per continuare la visita.",
+    tourCtaTitle: "Hai visto gli spazi. Ora scegli le date.",
+    tourCtaText: "Controlla disponibilità, condizioni e prezzi aggiornati sulle piattaforme di prenotazione.",
+    tourBook: "Verifica disponibilità",
+    interviewEyebrow: "La storia di MUN Apartment",
+    interviewTitle: "L’intervista all’host.",
+    interviewLead: "Lorenzo Cicogna racconta MUN Apartment in un’intervista dedicata al progetto.",
+    interviewVideoTitle: "MUN Apartment: l’intervista completa",
+    interviewVideoText: "Video integrale. La riproduzione parte solo quando scegli di avviarla, per non appesantire la navigazione.",
+    interviewAboutTitle: "Un modo diverso per conoscere MUN Apartment.",
+    interviewAboutText: "Oltre alle fotografie e alle informazioni pratiche, l’intervista permette di conoscere direttamente l’host e il progetto attraverso la sua voce.",
+    interviewTour: "Visita anche il tour virtuale",
+    interviewBook: "Prenota il soggiorno",
+
     notFoundTitle: "Pagina non trovata.",
     notFoundText: "Il collegamento potrebbe essere cambiato oppure l’indirizzo non è corretto.",
     backHome: "Torna alla home"
@@ -312,6 +339,33 @@ const translations = {
     socialTitle: "Follow MUN Apartment.",
     socialText: "Photos, updates and content from Valle Imagna.",
 
+    discoverMoreEyebrow: "Discover MUN Apartment",
+    discoverMoreTitle: "Step inside the spaces and discover the story behind the project.",
+    discoverMoreLead: "A guided tour through the real apartment and an interview with the host offer two different ways to discover MUN Apartment.",
+    tourCardTitle: "Guided virtual tour",
+    tourCardText: "Explore the living area, kitchen, bedroom and bathroom through real photographs of the apartment.",
+    openTour: "Start the tour",
+    interviewCardTitle: "Host interview",
+    interviewCardText: "Watch the interview with Lorenzo Cicogna about MUN Apartment and the hospitality project.",
+    watchInterview: "Watch the interview",
+    guidedTour: "Virtual tour",
+    tourEyebrow: "Guided virtual tour",
+    tourTitle: "Visit MUN Apartment, room by room.",
+    tourLead: "An interactive journey built exclusively with real photographs of the apartment. It is not a 3D reconstruction or a 360° tour.",
+    tourInstruction: "Choose a space or use the arrows to continue the visit.",
+    tourCtaTitle: "You have seen the spaces. Now choose your dates.",
+    tourCtaText: "Check current availability, conditions and prices on the booking platforms.",
+    tourBook: "Check availability",
+    interviewEyebrow: "The story of MUN Apartment",
+    interviewTitle: "The host interview.",
+    interviewLead: "Lorenzo Cicogna talks about MUN Apartment in an interview dedicated to the project.",
+    interviewVideoTitle: "MUN Apartment: full interview",
+    interviewVideoText: "Full video. Playback starts only when you choose to play it, so the page remains lightweight while browsing.",
+    interviewAboutTitle: "A different way to discover MUN Apartment.",
+    interviewAboutText: "Beyond photographs and practical information, the interview lets you meet the host and hear about the project directly in his own voice.",
+    interviewTour: "Visit the virtual tour too",
+    interviewBook: "Book your stay",
+
     notFoundTitle: "Page not found.",
     notFoundText: "The link may have changed or the address may be incorrect.",
     backHome: "Back to home"
@@ -342,6 +396,14 @@ const pageTitles = {
   contact: {
     it: "Contatti | MUN Apartment",
     en: "Contact | MUN Apartment"
+  },
+  tour: {
+    it: "Tour virtuale | MUN Apartment",
+    en: "Virtual Tour | MUN Apartment"
+  },
+  interview: {
+    it: "Intervista all’host | MUN Apartment",
+    en: "Host Interview | MUN Apartment"
   },
   "404": {
     it: "Pagina non trovata | MUN Apartment",
