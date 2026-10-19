@@ -1,0 +1,3 @@
+Contact: mailto:munapartment@gmail.com
+Preferred-Languages: it, en
+Canonical: https://lorenzocicogna.github.io/munapartment/.well-known/security.txt
