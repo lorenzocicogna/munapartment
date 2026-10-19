@@ -180,19 +180,31 @@ p {
 }
 
 .language-flag {
-  padding: 4px;
-  border: 1px solid transparent;
-  border-radius: 8px;
-  background: transparent;
-  font-size: 19px;
-  opacity: 0.48;
+  width: 36px;
+  height: 34px;
+  display: inline-grid;
+  place-items: center;
+  padding: 0;
+  border: 1px solid rgba(16, 42, 92, 0.14);
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.62);
+  font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+  font-size: 20px;
+  line-height: 1;
+  opacity: 1;
   cursor: pointer;
+  transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease;
 }
 
-.language-flag:hover,
+.language-flag:hover {
+  transform: translateY(-1px);
+  border-color: var(--gold-500);
+  background: var(--white);
+}
+
 .language-flag.active {
   border-color: var(--gold-500);
-  opacity: 1;
+  background: var(--gold-200);
 }
 
 .menu-toggle {
@@ -979,9 +991,15 @@ p {
 
 .footer-brand img {
   width: 245px;
+  max-width: 100%;
+  height: auto;
   margin-bottom: 17px;
-  filter: brightness(0) invert(1);
-  opacity: 0.94;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: var(--white);
+  filter: none;
+  opacity: 1;
+  object-fit: contain;
 }
 
 .site-footer h2 {
