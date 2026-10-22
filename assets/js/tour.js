@@ -1,14 +1,15 @@
 "use strict";
 
 const tourSlides = [
-  { src: "assets/images/apartment/living-room.webp", it: ["Zona giorno", "Uno sguardo alla zona giorno dell’appartamento."], en: ["Living area", "A view of the apartment living area."] },
-  { src: "assets/images/apartment/kitchen.webp", it: ["Cucina attrezzata", "La cucina con zona pranzo, pensata per l’uso quotidiano durante il soggiorno."], en: ["Equipped kitchen", "The kitchen and dining area, designed for everyday use during your stay."] },
-  { src: "assets/images/apartment/bedroom-bed.webp", it: ["Camera matrimoniale", "La camera matrimoniale di MUN Apartment."], en: ["Double bedroom", "The double bedroom at MUN Apartment."] },
-  { src: "assets/images/apartment/bedroom-window.webp", it: ["Vista dalla camera", "Una delle viste dalla zona notte."], en: ["Bedroom view", "One of the views from the sleeping area."] },
-  { src: "assets/images/apartment/bedroom-dresser.webp", it: ["Dettagli della camera", "Arredi e dettagli della camera matrimoniale."], en: ["Bedroom details", "Furnishings and details from the double bedroom."] },
-  { src: "assets/images/apartment/bathroom-sink.webp", it: ["Bagno", "Il bagno dell’appartamento."], en: ["Bathroom", "The apartment bathroom."] },
-  { src: "assets/images/apartment/bathroom-shower.webp", it: ["Doccia", "La doccia del bagno."], en: ["Shower", "The bathroom shower."] },
-  { src: "assets/images/apartment/bathroom-view.webp", it: ["Bagno · dettaglio", "Un secondo punto di vista del bagno."], en: ["Bathroom · detail", "A second view of the bathroom."] }
+  { src: "assets/images/apartment/building-exterior.webp", it: ["Esterno", "L’edificio di MUN Apartment a Fuipiano Valle Imagna."], en: ["Exterior", "The building hosting MUN Apartment in Fuipiano Valle Imagna."] },
+  { src: "assets/images/apartment/living-room.webp", it: ["Zona giorno", "Soggiorno e zona pranzo, luminosi e accoglienti."], en: ["Living area", "A bright and welcoming living and dining area."] },
+  { src: "assets/images/apartment/kitchen.webp", it: ["Cucina attrezzata", "Cucina completa con zona pranzo per vivere la casa in autonomia."], en: ["Equipped kitchen", "A fully equipped kitchen and dining area for an independent stay."] },
+  { src: "assets/images/apartment/sofa-bed.webp", it: ["Divano letto", "Il divano letto amplia gli spazi disponibili per il soggiorno."], en: ["Sofa bed", "The sofa bed adds flexible sleeping space to the apartment."] },
+  { src: "assets/images/apartment/bedroom-bed.webp", it: ["Camera matrimoniale", "La camera matrimoniale, luminosa e affacciata sul paesaggio."], en: ["Double bedroom", "The bright double bedroom looks out over the surrounding landscape."] },
+  { src: "assets/images/apartment/bedroom-window.webp", it: ["Vista dalla camera", "La vista dalla zona notte verso il paesaggio della Valle Imagna."], en: ["Bedroom view", "A view from the sleeping area over the Valle Imagna landscape."] },
+  { src: "assets/images/apartment/bathroom-sink.webp", it: ["Bagno", "Lavabo, specchio e dotazioni del bagno."], en: ["Bathroom", "The bathroom sink, mirror and amenities."] },
+  { src: "assets/images/apartment/bathroom-shower.webp", it: ["Doccia", "La doccia con la sua chiusura pieghevole in plastica."], en: ["Shower", "The shower with its folding plastic enclosure."] },
+  { src: "assets/images/territory/winter-panorama.webp", it: ["Panorama", "Nelle giornate giuste, la valle regala scorci spettacolari sulle montagne."], en: ["Panorama", "On the right days, the valley offers spectacular mountain views."] }
 ];
 
 const stage = document.querySelector(".tour-stage");
