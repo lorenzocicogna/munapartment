@@ -62,12 +62,12 @@
         </div>
         <div class="virtual-tour reveal">
           <div class="tour-stage">
-            <img src="assets/images/apartment/living-room.webp" alt="Zona giorno" data-tour-stage />
-            <div class="tour-controls" aria-label="Controlli del tour">
+            <img src="assets/images/apartment/living-room.webp" alt="Zona giorno" data-tour-stage loading="eager" decoding="async" fetchpriority="high" />
+            <div class="tour-progress" aria-hidden="true"><span data-tour-progress></span></div>\n            <div class="tour-controls" aria-label="Controlli del tour">
               <button class="tour-arrow" type="button" data-tour-prev aria-label="Ambiente precedente">‹</button>
               <button class="tour-arrow" type="button" data-tour-next aria-label="Ambiente successivo">›</button>
             </div>
-            <div class="tour-caption">
+            <div class="tour-caption" aria-live="polite">
               <div class="tour-caption-top"><h2 data-tour-title>Zona giorno</h2><span class="tour-counter" data-tour-counter>01 / 08</span></div>
               <p data-tour-text>Uno sguardo alla zona giorno dell’appartamento.</p>
             </div>
